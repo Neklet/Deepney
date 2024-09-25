@@ -403,7 +403,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "K".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Deepney/Approval-/blob/main/Approval').text
+    httpCaht = requests.get('https://github.com/Neklet/Pochyo/blob/main/Puti.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       #time.sleep(0.5)
